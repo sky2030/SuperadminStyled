@@ -1,0 +1,1106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  width: 100vw;
+}
+.Appcontainer {
+  width: 100vw;
+}
+h5 {
+  text-align: left;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10vh);
+  }
+}
+
+Footer {
+  width: 50%;
+}
+/* .headeralign {
+  display: flex;
+  flex-flow: wrap;
+} */
+.headerNew {
+  margin-top: 2rem;
+}
+.imgclassName {
+  /* height: 25vh; */
+  width: 40vw;
+  height: 55vh;
+  justify-items: center;
+  align-content: center;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  /* margin-left: 1rem; */
+}
+body {
+  background-color: #f9f9f9;
+}
+.backbtn {
+  width: 8vw;
+  height: 5vh;
+  background-color: rgb(6, 105, 185);
+  color: white;
+  padding: 0.4rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-top: 10px;
+/* margin-right: 30px; */
+}
+.ChooseDoctor {
+  width: 12vw;
+  height: 5vh;
+  color: white;
+  background-color: rgb(6, 105, 185);
+  border: 1px solid rgb(233, 224, 224);
+}
+
+.listhead {
+  color: #0669b9;
+  font-weight: bold;
+}
+.list {
+  display: "flex";
+  flex-wrap: wrap;
+}
+
+ul {
+  margin: 0px;
+  list-style-type: none;
+}
+ul.dlist {
+  margin-top: 20px;
+}
+ul.dlist li {
+  background-color: #fff;
+  margin: 7px;
+  padding: 1px 10px;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  -moz-box-shadow: 3px 1px 1px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 1px 1px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 1px 1px rgba(68, 68, 68, 0.6);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+}
+
+.dashboard_wrap {
+  width: 95vw;
+  display: flex;
+  margin: 5px auto;
+}
+
+.dashboard_wrap1 {
+  width: 80vw;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+ul.dlist li i {
+  color: rgb(22, 115, 190);
+  font-size: 20px;
+  padding: 10px;
+  vertical-align: middle;
+}
+.dashboard_maincontent {
+  position: relative;
+}
+.dashboard_maincontent img {
+  width: 90vw;
+  height: 85vh;
+  background-size: cover;
+}
+.dashboard_icons {
+  position: absolute;
+  left: 20px;
+  top: 170px;
+  width: 100%;
+}
+.dashboard_icons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  float: left;
+}
+.dashboard_icons ul li {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.dashboard_icons ul li a {
+  width: 87%;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgba(22, 115, 190, 0.8);
+  margin: 2%;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+.dashboard_icons ul li a i {
+  font-size: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.transdoctor {
+  width: 8vw;
+  color: #0669b9;
+  font-weight: bold;
+  border-width: 0px;
+}
+footer p {
+  font-size: 13px;
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+}
+footer {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  z-index: 100;
+}
+.box-shad {
+  box-shadow: 1px 0px 4px #999;
+  border: 1px solid #999;
+}
+header {
+  display: flex;
+  overflow: hidden;
+  margin-top: 0px;
+  box-shadow: 0px 2px 2px #ccc;
+  background-color: #fff;
+}
+header #myNav {
+  display: inline-block;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+header ul li {
+  width: 30vw;
+  display: inline;
+  padding: 10px;
+  line-height: 50px;
+}
+header ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
+}
+header ul li:hover {
+  background-color: #577ad8;
+}
+header ul li a:hover {
+  color: white;
+}
+header ul li a i:hover {
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.logo img {
+  width: 10vw;
+}
+.logo {
+  float: left;
+  width: 10vw;
+  text-align: left;
+}
+/* header ul li:last-child {
+  float: right;
+  text-align: right;
+  line-height: 20px;
+  padding-right: 0px;
+} */
+header ul li a i {
+  padding-right: 7px;
+  font-size: 16px;
+  color: rgb(22, 115, 190);
+}
+.text-right {
+  text-align: right;
+}
+.right {
+  float: right;
+}
+.adddept,
+.alldept,
+.detailsdept {
+  width: 50%;
+  margin: 10px auto 60px auto;
+  background: rgb(238, 238, 238);
+  background: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(215, 230, 246, 1) 100%
+  );
+  text-align: center;
+}
+
+.transactioncard {
+  width: 95vw;
+  margin: 10px auto 60px auto;
+  background: rgb(238, 238, 238);
+  background: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(215, 230, 246, 1) 100%
+  );
+  text-align: center;
+}
+.transactioncard h2 {
+  background-color: rgb(46 82 147);
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.updatehosp {
+  width: 60%;
+  margin: 10px auto 0px auto;
+  background: rgb(238, 238, 238);
+  background: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(215, 230, 246, 1) 100%
+  );
+}
+.scrolldiv {
+  height: 73vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+form {
+  margin: 15px 0px;
+  height: 73vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.adddept h2,
+.alldept h2,
+.detailsdept h2,
+.updatehosp h2 {
+  background-color: rgb(46 82 147);
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.detailsdept img {
+  width: 150px;
+  margin: 20px 0px 0px 0px;
+  border-radius: 150px;
+}
+.detlspage {
+  background-color: #fff;
+  box-shadow: 0px 2px 3px #ccc;
+  padding: 10px;
+  margin: 15px 0px;
+}
+.detailsdept p {
+  margin: 7px;
+  font-size: 15px;
+}
+.detailsdept h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+.detlspage p {
+  margin: 5px;
+  font-size: 16px;
+}
+.adddept label {
+  width: 100%;
+  float: left;
+  text-align: left;
+  padding-left: 15%;
+  font-size: 14px;
+}
+.flex-container .col a {
+  text-decoration: none;
+  color: #000;
+}
+.adddept input,
+.login input,
+.adddept select {
+  width: 70%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  padding: 5px;
+}
+.updatehosp input {
+  width: 29%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: 7px;
+  padding: 5px;
+  vertical-align: top;
+}
+.adddept select {
+  height: 40px;
+  width: 70%;
+}
+.updatehosp textarea {
+  width: 62%;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 7px;
+  text-align: left;
+  margin: 7px;
+  padding: 5px;
+}
+.adddept textarea {
+  width: 70%;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  padding: 5px;
+  margin-bottom: -3px;
+}
+
+.adddept .row {
+  margin-bottom: 0px;
+}
+.btncontainer {
+  padding: 15px 0px;
+}
+.adddept button i {
+  font-size: 18px;
+  padding-right: 10px;
+}
+.adddept button {
+  background-color: rgb(22, 115, 190);
+  width: 70%;
+  font-size: 15px;
+  border: 0px;
+  height: 40px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.detailsdept button,
+.login button {
+  background-color: rgb(22, 115, 190);
+  font-size: 15px;
+  border: 0px;
+  height: 40px;
+  margin: 15px 10px 20px 10px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+.detailsdept button i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.alldept img {
+  width: 40px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.alldept ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+}
+.alldept ul li {
+  padding: 15px;
+  text-align: left;
+  background-color: rgba(22, 115, 190, 0.8);
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.alldept ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.add_departmet a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgb(6, 105, 185);
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+.add_departmet {
+  padding-bottom: 20px;
+  padding-top: 15px;
+  text-align: center;
+}
+.backarrow {
+  width: auto;
+  float: left;
+  margin-top: 8px;
+  padding-left: 20px;
+}
+.backarrow i {
+  color: #fff;
+}
+.flex-container .col {
+  background-color: #f5f5f5;
+  width: 30%;
+  padding-bottom: 10px;
+}
+.flex-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* background-color: #fff; */
+}
+.hospitalimg img {
+  width: 10vw;
+  height: 15vh;
+  margin-left: 5px;
+  margin-right: 10px;
+  box-shadow: 2px -2px 3px #999;
+}
+.hospital-card {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 5px;
+  box-shadow: 4px -2px 7px #999;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(6, 105, 185);
+}
+.hospital-card h3 {
+  background-color: rgb(6, 105, 185);
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+.hospital-card p {
+  font-size: 14px;
+  color: #525252;
+}
+.splash_bg {
+ background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 96vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.splash_bg img{
+  margin-top: 40px;
+}
+.pointer img{
+  margin-top: 0px;
+  width: 2vw;
+  color:#fff;
+}
+.splash-logo {
+  height: 55vmin;
+  pointer-events: none;
+}
+.doctor-card {
+  height: 25vh;
+  margin: 10px;
+  box-shadow: 4px -2px 7px #999;
+}
+.doctor-card1 {
+  flex-direction: row;
+  display: flex;
+}
+
+.doctor-card h3 {
+  background-color: rgb(6, 105, 185);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.doctorpic img {
+  width: 7vw;
+  height: 15vh;
+  float: left;
+  box-shadow: 2px -2px 3px #999;
+}
+.doctorpic {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.doctordetails {
+  float: left;
+  padding: 0px 5px;
+  align-content: center;
+  justify-items: center;
+  /* margin-bottom: 2rem; */
+}
+.doctordetails i {
+  font-size: 10px;
+}
+.doctordetails p {
+  padding: 0;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: left;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}
+.col5 {
+  width: 90%;
+  background: rgb(238, 238, 238);
+  background: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(215, 230, 246, 1) 100%
+  );
+
+  margin: 15px;
+  padding: 15px;
+  text-align: left;
+  border-radius: 10px;
+}
+.col4 {
+  width: 30vw;
+  margin-left: 5em;
+  background: rgb(238, 238, 238);
+  background: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(215, 230, 246, 1) 100%
+  );
+
+  margin: 15px;
+  padding: 15px;
+  text-align: left;
+  border-radius: 10px;
+}
+.col4 p {
+  line-height: 25px;
+  font-size: 15px;
+}
+.col4 i {
+  color: rgba(22, 115, 190);
+  padding-right: 8px;
+}
+.tranbottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.tranbottom button {
+  width: 8em;
+  height: 2.5em;
+  margin: 1em;
+  border-radius: 0.5em;
+  color: white;
+  border-color: white;
+  background-color: rgb(6, 105, 185);
+}
+.col4 h3 {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.banner-text {
+  margin-top: 1.7em;
+  margin-left: 1em;
+  position: relative;
+  width: 40vw;
+  display: flex;
+  height: 55vh;
+}
+.banner-text img {
+  width: 40vw;
+  border-radius: 10px;
+
+  box-shadow: 2px -2px 3px #999;
+}
+.contact-banner {
+  width: 30vw;
+  /* height: 50vh; */
+  margin-top: 1em;
+  display: flex;
+}
+.contact-banner img {
+  width: 30vw;
+  border-radius: 1em;
+}
+
+.col5 p {
+  line-height: 25px;
+  font-size: 15px;
+}
+.col5 i {
+  color: rgba(22, 115, 190);
+  padding-right: 8px;
+}
+.col5 h3 {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.pb15 {
+  padding-bottom: 15px;
+}
+.banner-text h2 {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  /* background-color: rgba(0,0,0,0.5); */
+  color: #fbf5f5;
+  padding: 6px 15px;
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.alltransation > div {
+  width: 20vw;
+  font-size: 14px;
+  line-height: 4vh;
+}
+
+.alltransation > div p b {
+  color: #0669b9;
+}
+.alltransation {
+  display: flex;
+  background-color: #ffff;
+  margin: 4px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 6px #ccc;
+}
+section.login {
+  background-color: #f5f5f5;
+  width: 50%;
+  margin: 80px auto;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 5px 17px #999;
+}
+.login h2 {
+  color: #525252;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.loginbox input {
+  padding-left: 35px;
+  font-size: 14px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.loginbox i {
+  position: absolute;
+  z-index: 1;
+  padding: 17px 13px;
+  color: rgb(22, 115, 190);
+}
+.loginbox div p i {
+  position: absolute;
+  z-index: 1;
+  padding: 16px 4px;
+  color: rgb(22, 115, 190);
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+  box-shadow: 4px 2px 6px #ccc;
+}
+
+.loginbox {
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+a.forgotpass {
+  width: 100%;
+  float: left;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 13px 0px;
+  color: blue;
+}
+section.login form {
+  height: auto;
+  width: 60%;
+  margin: 20px auto;
+}
+.login button {
+  width: 97%;
+}
+.file {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  height: 2.5rem;
+}
+.file input {
+  min-width: 14rem;
+  margin: 0;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.file-custom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  border: 0.075rem solid #ddd;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.file-custom:after {
+  content: "Choose file...";
+}
+.file-custom:before {
+  position: absolute;
+  top: -0.075rem;
+  right: -0.075rem;
+  bottom: -0.075rem;
+  z-index: 6;
+  display: block;
+  content: "Browse";
+  height: 1.4rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  color: #555;
+  background-color: #eee;
+  border: 0.075rem solid #ddd;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+label.file {
+  width: 70%;
+  float: none;
+  margin-top: 5px;
+}
+.bg_white {
+  background-color: null !important;
+}
+.patientsinvoice h3 {
+  font-size: 13px;
+}
+.doctordetails p {
+  width: 190px;
+  word-break: break-word;
+  line-height: 20px;
+  padding-bottom: 3px;
+}
+.allpatients .alltransation {
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 0;
+}
+.patientsinvoice {
+  background-color: #565656;
+  color: #fff;
+  padding: 4px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard_icons ul,
+  .dashboard_icons ul li,
+  .container,
+  .flex-container,
+  .col5,
+  .col3 {
+    width: 100%;
+  }
+  .dashboard_wrap {
+    width: 94%;
+    z-index: -1;
+  }
+  section.login,
+  section.login form {
+    width: 90%;
+  }
+  .flex-container .col {
+    flex: 100%;
+  }
+
+  .doctorpic img {
+    width: 18vw;
+    height: 15vh;
+    float: left;
+  }
+  /* header{
+	  z-index:1;
+	  position: relative;
+  }
+  header ul{
+	  float:left;
+  }*/
+  .adddept,
+  .alldept,
+  .detailsdept {
+    width: 96%;
+  }
+
+  form,
+  .scrolldiv {
+    height: auto;
+  }
+  /* footer{ */
+  /* position:inherit; */
+  /* } */
+}
+header .icon {
+  width: 45px;
+  background-color: rgba(22, 115, 190, 0.8);
+  display: none;
+  position: absolute;
+  right: 0px;
+  font-size: 35px;
+  top: 0px;
+  color: white;
+}
+
+@media only screen and (max-width: 420px) {
+  .dashboard_wrap {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .dashboard_maincontent {
+    width: 90vw;
+    flex-direction: column;
+  }
+  .dashboard_maincontent img {
+    width: 90vw;
+    height: 30vh;
+    background-size: cover;
+  }
+  .dashboard_icons {
+    position: absolute;
+    left: 15px;
+    top: 260px;
+    width: 100%;
+  }
+  .logo img {
+    width: 40vw;
+    height: 10vh;
+  }
+  .logo {
+    float: left;
+    width: 40vw;
+    height: 10vh;
+    margin: 0px 8em;
+    text-align: left;
+  }
+  .backbtn {
+    width: 72vw;
+    height: 4vh;
+  }
+  .flex-container {
+    margin-top: 10px;
+  }
+  .transactioncard h2 {
+    background-color: rgb(46 82 147);
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+  }
+  .banner-text {
+    width: 70vw;
+    height: 22vh;
+    border-radius: 2px;
+    margin-left: 5px;
+  }
+  .banner-text img {
+    width: 70vw;
+    border-radius: 2px;
+  }
+  .doctorpic img {
+    width: 30vw;
+    height: 15vh;
+    float: left;
+    box-shadow: 2px -2px 3px #999;
+  }
+  .ChooseDoctor {
+    width: 90vw;
+  }
+  header {
+    display: flex;
+    margin-top: 0px;
+    box-shadow: 0px 2px 2px #ccc;
+    background-color: #fff;
+  }
+  header #myNav {
+    display: none;
+  }
+  header .icon {
+    width: 50px;
+    background-color: rgba(22, 115, 190, 0.8);
+    display: block;
+    position: absolute;
+    right: 7px;
+    font-size: 35px;
+    top: 2px;
+    color: white;
+  }
+
+  header ul li {
+    display: flex;
+    padding: 5px;
+    width: 100vw;
+    line-height: 20px;
+    justify-content: center;
+    background-color: rgba(22, 115, 190, 0.8);
+    margin-right: 5px;
+    border-bottom: 1px solid white;
+  }
+
+  header ul li a {
+    font-size: 20px;
+    color: white;
+  }
+
+  header ul li a i {
+    font-size: 15px;
+    color: white;
+  }
+
+  .hospitalimg img {
+    width: 35vw;
+    height: 15vh;
+  }
+
+  .dashboard_wrap1 {
+    width: 75vw;
+    flex-direction: column;
+  }
+
+  .contact-banner img {
+    width: 70vw;
+    border-radius: 1em;
+  }
+  .col4 {
+    width: 60vw;
+  }
+  .col5 {
+    width: 75vw;
+  }
+  .add_departmet {
+    margin-bottom: 2em;
+  }
+  .alltransation > div {
+    font-size: 11px;
+  }
+  
+footer p{
+  font-size: 14px;
+}
+  .alltransation {
+    border: 1px solid blue;
+    display: flex;
+    background-color: #ffff;
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 6px #ccc;
+  }
+   .splash_bg img{
+    margin-top: 25vh;
+  }
+ .pointer img{
+    margin-top: 1px;
+    width: 7vw;
+  }
+  .listhead {
+    word-wrap: break-word;
+    margin-right: 5px;
+  }
+  .list {
+    word-wrap: break-word;
+  }
+}

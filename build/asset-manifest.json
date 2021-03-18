@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.98f30394.chunk.css",
+    "main.js": "./static/js/main.afde264d.chunk.js",
+    "main.js.map": "./static/js/main.afde264d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.5c471187.js",
+    "runtime-main.js.map": "./static/js/runtime-main.5c471187.js.map",
+    "static/js/2.0c603afa.chunk.js": "./static/js/2.0c603afa.chunk.js",
+    "static/js/2.0c603afa.chunk.js.map": "./static/js/2.0c603afa.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.bed7036a5a6fed63fa082f44979b5b16.js": "./precache-manifest.bed7036a5a6fed63fa082f44979b5b16.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.98f30394.chunk.css.map": "./static/css/main.98f30394.chunk.css.map",
+    "static/js/2.0c603afa.chunk.js.LICENSE.txt": "./static/js/2.0c603afa.chunk.js.LICENSE.txt",
+    "static/media/Default_Hospital.jpg": "./static/media/Default_Hospital.8fe0cf04.jpg",
+    "static/media/Female-Doctor.png": "./static/media/Female-Doctor.b0151fc2.png",
+    "static/media/Male-Doctor.png": "./static/media/Male-Doctor.21b10a83.png",
+    "static/media/Smhs_Logo.png": "./static/media/Smhs_Logo.3548071b.png",
+    "static/media/Spinnergrey.gif": "./static/media/Spinnergrey.c1ea0242.gif",
+    "static/media/bgimg.jpg": "./static/media/bgimg.b23fd27c.jpg",
+    "static/media/contact2.jpg": "./static/media/contact2.2c96e45b.jpg",
+    "static/media/pointer.png": "./static/media/pointer.427cf053.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c471187.js",
+    "static/js/2.0c603afa.chunk.js",
+    "static/css/main.98f30394.chunk.css",
+    "static/js/main.afde264d.chunk.js"
+  ]
+}
